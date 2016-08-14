@@ -1,0 +1,91 @@
+html, body {
+  background-color: black;
+  height: 100%;
+}
+
+/* Container for note boxes */
+#simon {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Note box elements */
+.note-box {
+  width: 100pt;
+  height: 100pt;
+  margin: 0 10pt;
+  border-width: 2pt;
+  cursor: pointer;
+}
+
+/* Per-note styles */
+#c {
+    background-color: rgba(238, 0, 55, 0.4);
+    border: 3px solid rgba(238, 0, 55, 1);
+}
+
+#c.active {
+  background-color: rgba(238, 0, 55, 1);
+}
+
+#c.active:hover {
+  background-color: rgba(238, 0, 55, 1);
+}
+
+#c:hover {
+  background-color: rgba(238, 0, 55, 0.6);
+}
+
+#d {
+    background-color: rgba(255, 176, 0, 0.4);
+    border: 3px solid rgba(255, 176, 0, 1);
+}
+
+#d.active {
+  background-color: rgba(255, 176, 0, 1);
+}
+
+#d.active:hover {
+  background-color: rgba(255, 176, 0, 1);
+}
+
+#d:hover {
+  background-color: rgba(255, 176, 0, 0.6);
+}
+
+#e {
+    background-color: rgba(17, 57, 187, 0.4);
+    border: 3px solid rgba(17, 57, 187, 1);
+}
+
+#e.active {
+  background-color: rgba(17, 57, 187, 1);
+}
+
+#e.active:hover {
+  background-color: rgba(17, 57, 187, 1);
+}
+
+#e:hover {
+  background-color: rgba(17, 57, 187, 0.6);
+}
+
+#f {
+    background-color: rgba(85, 229, 0, 0.4);
+    border: 3px solid rgba(85, 229, 0, 1);
+}
+
+#f.active {
+  background-color: rgba(85, 229, 0, 1);
+}
+
+#f.active:hover {
+  background-color: rgba(85, 229, 0, 1);
+}
+
+#f:hover {
+  background-color: rgba(85, 229, 0, 0.6);
+}
