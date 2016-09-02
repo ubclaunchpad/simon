@@ -1,6 +1,6 @@
 # Simon | UBC Launch Pad JavaScript Interview Project
 
-Thank you for choosing to interview with us and welcome to the UBC Launch Pad JavaScript interview project! The purpose of this interview stage is to give you a chance to demonstrate your programming abilities in a more relaxed environment than an in-person interview. If you aren't able or don't have time to complete it, we still encourage you to apply. 
+Thank you for choosing to interview with us and welcome to the UBC Launch Pad JavaScript interview project! The purpose of this interview stage is to give you a chance to demonstrate your programming abilities in a more relaxed environment than an in-person interview. You can choose to try either the Easy Task, the Challenge Task, or both. If you aren't able or don't have time to complete it, we still encourage you to apply with what you _have_ done.
 
 Note: We recommend using Google Chrome when developing this project. Other browsers may not have as robust a Web Audio implementation (looking at you, Safari).
 
@@ -16,10 +16,13 @@ The NoteBox object exposes several public methods for you to use in this project
 
 `NoteBox#disable` - Disables this NoteBox so that clicking it will accomplish nothing.
 
+## Easy Task
 
-## Task Description
+Implement a NoteBox "echo" application. Whenever the user plays one of the NoteBoxes by clicking it, after a duration of 2.5 seconds, you should echo whatever note the user played back to them. If they play multiple notes with less than 2.5 seconds between each note, you should wait them to finish (i.e. not play a note for 2.5 seconds), then play back the sequence they played.
 
-Your task is to implement the game [Simon](https://en.wikipedia.org/wiki/Simon_(game)) using JavaScript and the NoteBox interface we have provided. If you don't know how the game works, take a look at the Wikipedia article or [play it yourself](http://www.kidsmathgamesonline.com/memory/simon.html).
+## Challenge Task
+
+Implement the game [Simon](https://en.wikipedia.org/wiki/Simon_(game)) using JavaScript and the NoteBox interface we have provided. If you don't know how the game works, take a look at the Wikipedia article or [play it yourself](http://www.kidsmathgamesonline.com/memory/simon.html).
 
 There is no need to replicate the look of the original (although you can if you want). What we are looking for is a replication of the basic functionality of the game, with the note boxes described above being isomorphic to the buttons in Simon. Specifically, your implementation should randomly generate a note to begin the game, and play it in the corresponding note box. Then it should wait for the user to select a note and verify that it matches the randomly generated note. Then it should randomly generate a new note to append to the previous note in the sequence and play the sequence. Then wait for the user to select notes matching the sequence. And so on until the user selects an incorrect note. Your implementation should immediately detect when the user deviates from the sequence by selecting an incorrect note, and should immediately restart the game.
 
