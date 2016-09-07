@@ -18,7 +18,7 @@ The NoteBox object exposes several public methods for you to use in this project
 
 ## Easy Task
 
-Implement a NoteBox "echo" application. Whenever the user plays one of the NoteBoxes by clicking it, after a duration of 2.5 seconds, you should echo whatever note the user played back to them. If they play multiple notes with less than 2.5 seconds between each note, you should wait them to finish (i.e. not play a note for 2.5 seconds), then play back the sequence they played.
+Implement a NoteBox "echo" application. Whenever the user plays one of the NoteBoxes by clicking it, after a duration of 2.5 seconds, you should echo whatever note the user played back to them. If they play multiple notes with less than 2.5 seconds between each note, you should wait for them to finish (i.e. not play a note for 2.5 seconds), then play back the sequence they played.
 
 ## Challenge Task
 
