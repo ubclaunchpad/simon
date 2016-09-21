@@ -16,6 +16,10 @@ The NoteBox object exposes several public methods for you to use in this project
 
 `NoteBox#disable` - Disables this NoteBox so that clicking it will accomplish nothing.
 
+## Setup
+
+To view the results of the code, start a HTTP server in the root directory. For instance: `python -m SimpleHTTPServer 8000`.
+
 ## Easy Task
 
 Implement a NoteBox "echo" application. Whenever the user plays one of the NoteBoxes by clicking it, after a duration of 2.5 seconds, you should echo whatever note the user played back to them. If they play multiple notes with less than 2.5 seconds between each note, you should wait for them to finish (i.e. not play a note for 2.5 seconds), then play back the sequence they played.
@@ -28,7 +32,7 @@ There is no need to replicate the look of the original (although you can if you 
 
 ## Rules
 
-1. You are allowed to use code from external sources (i.e. Stack Overflow), but try to avoid it for more than one or two lines. If you do use code from an external source, you should link to the source in a comment.
+1. You can use code from external sources (i.e. Stack Overflow), but avoid it for more than one or two lines. If you do use code from an external source, link to the source in a comment.
 2. Don't ask your friends for help. This project should be done on your own.
 3. You _can_ alter the provided `NoteBox`, but in general you should add to it rather than replacing it.
 
