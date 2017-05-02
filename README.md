@@ -32,7 +32,7 @@ There is no need to replicate the look of the original (although you can if you 
 
 ## Rules
 
-1. You can use code from external sources (i.e. Stack Overflow), but avoid it for more than one or two lines. If you do use code from an external source, link to the source in a comment.
+1. You can use code from external sources (i.e. Stack Overflow), but avoid it for more than a couple of lines. If you do use code from an external source, link to the source in a comment.
 2. Don't ask your friends for help. This project should be done on your own.
 3. You _can_ alter the provided `NoteBox`, but in general you should add to it rather than replacing it.
 
